@@ -1,0 +1,12 @@
+### Registrar una variedad de café
+POST http://localhost:8080/api/cafes
+Content-Type: application/json
+
+{
+  "nombre": "Bourbon",
+  "origen": "Colombia",
+  "altitudOptima": 1500
+}
+
+### Listar variedades de café
+GET http://localhost:8080/api/cafes
